@@ -30,5 +30,11 @@ pipeline {
         always {
             echo 'Pipeline terminé.'
         }
+        succes {
+            echo 'Le build a réussi.'
+        }
+        failure {
+            echo 'Le build a échoué.'
+        }
     }
 }
