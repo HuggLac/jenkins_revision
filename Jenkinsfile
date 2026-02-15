@@ -26,9 +26,9 @@ pipeline {
         }
         stage('Affichage build') {
             steps {
-                echo 'Numéro du build: ${env.BUILD_NUMBER}'
-                echo 'Nom de la job: ${env.JOB_NAME}'
-                echo 'Chemin workspace: ${env.WORKSPACE}'
+                echo "Numéro du build: ${env.BUILD_NUMBER}"
+                echo "Nom de la job: ${env.JOB_NAME}"
+                echo "Chemin workspace: ${env.WORKSPACE}"
             }
         }
     }
